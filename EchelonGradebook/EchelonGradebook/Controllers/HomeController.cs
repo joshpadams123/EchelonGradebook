@@ -34,25 +34,6 @@ namespace EchelonGradebook.Controllers
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
 
-
-        [HttpPost]
-        public ViewResult Login(Login login)
-        {
-            if (ModelState.IsValid)
-            {
-                HttpContext.Session.SetString(login.Username, login.Username);
-                ViewData["user"] = HttpContext.Session.GetString(login.Username);
-                return View("Home", login);
-            }
-            else
-            {
-                return View();
-            }
-        }
     }
 }

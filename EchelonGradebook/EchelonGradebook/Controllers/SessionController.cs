@@ -10,11 +10,41 @@ namespace EchelonGradebook.Controllers
 {
     public class SessionController : Controller
     {
-        public IActionResult Home()
+        public IActionResult SessionHome(Login login)
+        {
+            //HttpContext.Session.GetString(login.Username);
+            
+            //ViewData["user"] = HttpContext.Session.GetString(login.Username);
+            return View();
+        }
+
+        public IActionResult Courses(Login login)
+        {
+            //HttpContext.Session.GetString(login.Username);
+
+            //ViewData["user"] = HttpContext.Session.GetString(login.Username);
+            return View();
+        }
+
+        public IActionResult Login()
         {
             return View();
         }
 
 
+        [HttpPost]
+        public ViewResult Login(Login login)
+        {
+            if (ModelState.IsValid)
+            {
+                HttpContext.Session.SetString(login.Username, login.Username);
+                ViewData["user"] = HttpContext.Session.GetString(login.Username);
+                return View("SessionHome", login);
+            }
+            else
+            {
+                return View();
+            }
+        }
     }
 }
