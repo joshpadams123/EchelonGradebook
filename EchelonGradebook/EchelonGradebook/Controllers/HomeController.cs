@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EchelonGradebook.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace EchelonGradebook.Controllers
 {
@@ -38,13 +39,15 @@ namespace EchelonGradebook.Controllers
             return View();
         }
 
+
         [HttpPost]
         public ViewResult Login(Login login)
         {
             if (ModelState.IsValid)
             {
+                HttpContext.Session.SetString(login.Username, login.Username);
+                ViewData["user"] = HttpContext.Session.GetString(login.Username);
                 return View("Home", login);
-
             }
             else
             {
