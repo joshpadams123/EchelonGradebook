@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using EchelonGradebook.Models;
 
 namespace EchelonGradebook.Controllers
 {
@@ -27,14 +28,28 @@ namespace EchelonGradebook.Controllers
             return View();
         }
 
+        public IActionResult Error()
+        {
+            return View();
+        }
+
         public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult Error()
+        [HttpPost]
+        public ViewResult Login(Login login)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                return View("Home", login);
+
+            }
+            else
+            {
+                return View();
+            }
         }
     }
 }
