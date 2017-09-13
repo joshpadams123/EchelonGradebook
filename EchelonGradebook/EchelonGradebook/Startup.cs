@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+
+
 namespace EchelonGradebook
 {
     public class Startup
@@ -48,6 +50,7 @@ namespace EchelonGradebook
             }
 
             app.UseStaticFiles();
+
 
             app.UseMvc(routes =>
             {

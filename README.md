@@ -1,2 +1,0 @@
-# EchelonGradebook
-A new gradebook
