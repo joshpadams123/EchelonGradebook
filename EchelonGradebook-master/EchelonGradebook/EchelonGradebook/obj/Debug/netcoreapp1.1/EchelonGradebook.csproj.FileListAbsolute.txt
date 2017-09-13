@@ -1,0 +1,9 @@
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\bin\Debug\netcoreapp1.1\EchelonGradebook.deps.json
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\bin\Debug\netcoreapp1.1\EchelonGradebook.runtimeconfig.json
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\bin\Debug\netcoreapp1.1\EchelonGradebook.runtimeconfig.dev.json
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\bin\Debug\netcoreapp1.1\EchelonGradebook.dll
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\bin\Debug\netcoreapp1.1\EchelonGradebook.pdb
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\obj\Debug\netcoreapp1.1\EchelonGradebook.csprojResolveAssemblyReference.cache
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\obj\Debug\netcoreapp1.1\EchelonGradebook.AssemblyInfo.cs
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\obj\Debug\netcoreapp1.1\EchelonGradebook.dll
+C:\Users\Josh\OneDrive\Programming\Echelon\EchelonGradebook-master\EchelonGradebook-master\EchelonGradebook\EchelonGradebook\obj\Debug\netcoreapp1.1\EchelonGradebook.pdb
